@@ -4,7 +4,7 @@ This is a modification of CoPCSE@NTNUs LaTeX document class. It's purpose is to 
 
 Additions to this class are the extra custom amsthm environments. Hopefully they are pretty self explanatory.
 
-1. thm
+1. theorem
 2. lemma
 3. proposition
 4. corollary

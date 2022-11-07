@@ -6,7 +6,7 @@ This is a modification of CoPCSE@NTNUs LaTeX document class. It's purpose is to 
 Additions to this class are the extra custom amsthm environments. Hopefully they are pretty self explanatory.
 
 \begin{enumerate}
-    \item thm
+    \item theorem
     \item lemma
     \item proposition
     \item corollary
@@ -16,6 +16,10 @@ Additions to this class are the extra custom amsthm environments. Hopefully they
     \item observation
     \item example
 \end{enumerate}
+
+\begin{theorem}
+    Test theorem 1
+\end{theorem}
 
 Some other changes to this template is that it uses LuaLaTeX instead of pdflatex to compile pdfs. This allows us to use more modern web fonts, such as opentype fonts. The main font of this document is Atkinson Hyperlegible which is a freefont developed by the Braille Institute. See more about \href{https://brailleinstitute.org/freefont}{\textit{Atkinson Hyperlegible}}. You can freely change font by using the command setmainfont{"Font here"}. Note that the font you want to load has to be both installed and visible to the compiler. When using Overleaf, this shouldn't be a problem, it may however be some problem when working locally. Googling "installing opentype font" should give you some answers, if you are on windows this \href{https://www.lifewire.com/installing-truetype-or-opentype-fonts-in-windows-1074134}{\textit{link}} may be of help.
 
